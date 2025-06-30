@@ -2,7 +2,7 @@
 
 This is the repository for my personal portfolio website. The initial version of the site was generated using [v0.dev](https://v0.dev) and then customized. It is built with Next.js and Tailwind CSS.
 
-![Screenshot of the website](<REPLACE WITH A SCREENSHOT OF YOUR SITE>)
+![Screenshot of the website](public/website-screenshot-v1.png)
 
 ## ✨ Features
 
