@@ -34,7 +34,7 @@ export default function Home() {
                 Andrew Della Penna
               </h1>
               <p className="max-w-3xl mx-auto leading-normal text-slate-700 text-lg sm:text-xl lg:text-2xl sm:leading-8">
-                Software Engineer based in Arlington, VA
+                Software Engineer
               </p>
             </div>
             <div className="flex flex-col sm:flex-row gap-4 mt-8">
@@ -67,9 +67,7 @@ export default function Home() {
               About Me
             </h2>
             <p className="max-w-3xl leading-relaxed text-slate-700 text-lg sm:text-xl lg:text-2xl sm:leading-8">
-              I'm a passionate software engineer with over 5 years of experience building web applications. My expertise
-              includes React, TypeScript, and modern web frameworks. I enjoy solving complex problems and creating
-              intuitive user experiences.
+              I am a May 2024 graduate from Vanderbilt University with a Bachelor of Engineering in Computer Engineering and minors in Data Science and Engineering Management. As an AWS Certified Solutions Architect Associate, I have a strong foundation in cloud computing and backend development. I am passionate about building robust, scalable software solutions and thrive in collaborative environments where I can tackle complex challenges.
             </p>
           </div>
           <div className="mx-auto grid justify-center gap-6 sm:grid-cols-2 lg:grid-cols-3 max-w-6xl mt-12">
@@ -78,7 +76,7 @@ export default function Home() {
                 <div className="space-y-4">
                   <h3 className="font-bold text-blue-800 text-xl">Skills</h3>
                   <p className="text-blue-700 leading-relaxed">
-                    Java, Python, C++, C, JavaScript, Typescript, Angular, React, Amazon Web Services (AWS), PostgreSQL, APIs, REST,NLP, Agile Methodology, Cucumber Framework, Cypress, Google Firebase, Quartus, VHDL, AVR Assembly Language, Microsoft Excel
+                    Java, Python, C++, C, JavaScript, Typescript, Angular, React, Amazon Web Services (AWS), PostgreSQL, APIs, REST, Splunk, AI, NLP, Agile Methodology, Cypress, Google Firebase
                   </p>
                 </div>
               </CardContent>
@@ -87,13 +85,11 @@ export default function Home() {
               <CardContent className="pt-8 pb-8 px-6">
                 <div className="space-y-4">
                   <h3 className="font-bold text-sky-800 text-xl">Education</h3>
-                  <p className="text-sky-700 leading-relaxed">
-                    B.E. Computer Engineering 
-                    <br />
-                    Minors in Data Science and Engineering Management
-                    <br />
-                    Vanderbilt University, Nashville, TN
-                  </p>
+                  <div>
+                    <p className="font-semibold text-sky-800">B.E. Computer Engineering</p>
+                    <p className="text-sky-700">Minors in Data Science and Engineering Management</p>
+                    <p className="text-sm text-sky-600">Vanderbilt University, Nashville, TN</p>
+                  </div>
                 </div>
               </CardContent>
             </Card>
@@ -101,7 +97,7 @@ export default function Home() {
               <CardContent className="pt-8 pb-8 px-6">
                 <div className="space-y-4">
                   <h3 className="font-bold text-cyan-800 text-xl">Interests</h3>
-                  <p className="text-cyan-700 leading-relaxed">Software Engineering, Data Science, Backend, Full Stack, Machine Learning, Artificial Intelligence, AWS, Cloud, Project Management, Consulting, Finance</p>
+                  <p className="text-cyan-700 leading-relaxed">Backend, Full Stack, Computer Engineering, Data Science, ML, AI, AWS, Cloud, FPGAs, Project Management, Finance, Weightlifting, Cooking</p>
                 </div>
               </CardContent>
             </Card>
